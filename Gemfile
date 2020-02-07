@@ -10,8 +10,10 @@ end
 gem 'rails', '~> 5.1.7'
 # Use sqlite3 as the database for Active Record
 
-#Use bootstrap
+#Use bcrypt to  encrypt passwords
+gem 'bcrypt',         '3.1.12'
 
+#Use bootstrap
 gem 'bootstrap-sass', '3.3.7'
 
 # Use Puma as the app server
