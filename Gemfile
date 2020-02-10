@@ -13,6 +13,9 @@ gem 'rails', '~> 5.1.7'
 #Use bcrypt to  encrypt passwords
 gem 'bcrypt',         '3.1.12'
 
+#Use jquery
+gem 'jquery-rails'
+
 #Use bootstrap
 gem 'bootstrap-sass', '3.3.7'
 
@@ -59,9 +62,9 @@ end
 
 group :test do
   gem 'rails-controller-testing', '1.0.2'
-  gem 'minitest',                 '5.10.3'
+  gem 'minitest', '5.10.3'
   gem 'minitest-reporters',       '1.1.14'
-  gem 'guard',                    '2.13.0'
+  gem 'guard', '2.13.0'
   gem 'guard-minitest',           '2.4.4'
 end
 
