@@ -16,9 +16,14 @@
   <body>
       <%= render 'layouts/header' %>
     <div class="container">
+      <% flash.each do |message_type, message| %>
+       <%= render 'shared/error_messages' %>
+      <% end %>
+
       <%= yield %>
     </div>
       <%= render 'layouts/footer' %>
+      <%= debug(params) if Rails.env.development? %>
   </body>
 
 
