@@ -17,7 +17,7 @@ gem 'bcrypt',         '3.1.12'
 gem 'jquery-rails'
 
 #Use bootstrap
-gem 'bootstrap-sass', '3.3.7'
+gem 'bootstrap-sass', '3.4.1'
 
 #pagination gem
 gem 'will_paginate',           '3.1.6'
