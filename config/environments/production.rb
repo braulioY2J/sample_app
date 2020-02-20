@@ -79,7 +79,7 @@ Rails.application.configure do
   # Use of smtp for mails in prooduction
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'desolate-savannah-40994.herokuapp.com'
+  host = 'braulioapp.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
